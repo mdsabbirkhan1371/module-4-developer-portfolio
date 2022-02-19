@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gideon Roman', cursive;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+.partial-color{
+    color: rgb(44, 33, 143);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%
+}
+.half-width image{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(orange,red);
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-banner{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
