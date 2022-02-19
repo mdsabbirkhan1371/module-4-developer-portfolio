@@ -8,14 +8,15 @@ h1{
 .partial-color{
     color: rgb(44, 33, 143);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%
-
+    padding-left: 3%;
+    
+    
 }
 .half-width image{
     width: 80%;
@@ -36,4 +37,35 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex{
+    padding-left: 2%;
+}
+.ex-item{
+box-shadow: 10px 10px 40px green;
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding:20px;
+
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev{
+    border-image: linear-gradient(blue,cyan);
+    border-left: 7px solid;
+    border-image-slice:1;
+}
+#web-babe{
+    border-image: linear-gradient(red,cyan);
+    border-left: 7px solid;
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
 }
